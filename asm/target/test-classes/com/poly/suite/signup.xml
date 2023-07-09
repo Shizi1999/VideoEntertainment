@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Signup">
+	<test thread-count="5" name="Signin">
+		<parameter name="username" value="user12387478" />
+		<parameter name="password" value="11111" />
+		<parameter name="confirmPassword" value="11111" />
+		<classes>
+			<class name="com.poly.testcase.SignUpTest" />
+		</classes>
+	</test> <!-- Signin -->
+</suite> <!-- Signin -->
